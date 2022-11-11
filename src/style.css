@@ -3,8 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 /*
 =============== 
 Variables
@@ -26,7 +25,7 @@ Variables
   --clr-primary-9: hsl(205, 90%, 88%);
   --clr-primary-10: hsl(205, 100%, 96%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-1: hsl(0, 0%, 0%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
@@ -42,12 +41,12 @@ Variables
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
-  --clr-gold: #c59d5f;
+  --clr-gold: #fdd9a2;
   --clr-black: #222;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  --ff-primary: "Poppins", sans-serif;
+  --ff-secondary: "Poppins", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.07rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -69,8 +68,8 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: var(--clr-grey-5);
+  color: var(--clr-grey-5);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -182,12 +181,12 @@ Questions
 ===============
 */
 .title {
-  margin-top: 15vh;
+  margin-top: 10vh;
   margin-bottom: 4rem;
 }
 .title h2 {
-  color: var(--clr-gold);
-  font-family: "Great Vibes", cursive;
+  color: var(--clr-white);
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 .section-center {
@@ -217,10 +216,10 @@ Questions
   background: transparent;
   border-color: transparent;
   cursor: pointer;
-  color: var(--clr-gold);
+  color: var(--clr-grey-5);
   transition: var(--transition);
 }
-.question-btn:hover {
+.question-btn:active {
   transform: rotate(90deg);
 }
 .question-text {
