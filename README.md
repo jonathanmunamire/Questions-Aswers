@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Questions-Answers
 
-# WebPack
-
-> Project to Display List of Books
+> Project to Show more often asked questions
 
 ## Built With
 
@@ -23,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
     Clone this repository
-    git clone https://github.com/jonathanmunamire/Webpack.git
+    git clone https://github.com/jonathanmunamire/Questions-Aswers.git
 
 ### Install
 
