@@ -3,7 +3,7 @@ import './style.css';
 
 const questionsArray = [{
   Question: "What level of English do I need in order to join the Program?",
-  Description: "Like many global schools and companies, we use English as the default language for all communications. A lot of great jobs out there require a good English level so it is critical that you perfect this language if you want to be a successful global developer. "
+  Description: "Like many global schools and companies, we use English as the default language for all communications. <br/><br/> A lot of great jobs out there require a good English level so it is critical that you perfect this language if you want to be a successful global developer. "
 },
 {
   Question: "Is there an age limit to join Microverse?",
@@ -11,15 +11,15 @@ const questionsArray = [{
 },
 {
   Question: "Is it possible to work and study full time at Microverse?",
-  Description: "Unfortunately, we can't accept students who have other commitments while going through the Program (e.g. a part-time or full-time job). Microverse's web development program is very intense and it requires a full-time commitment. As a student, you will be coding for 8-9 hours a day while collaborating with your coding partner. "
+  Description: "Unfortunately, we can't accept students who have other commitments while going through the Program (e.g. a part-time or full-time job). <br/><br/> Microverse's web development program is very intense and it requires a full-time commitment. As a student, you will be coding for 8-9 hours a day while collaborating with your coding partner. "
 },
 {
   Question: "Why do I need to have financial support in order to join the program?",
-  Description: "Remember, you won't pay Microverse anything until you get a job. We believe that everyone deserves an opportunity to become a software developer, and our payment model reflects that. However, you will need to pay for your basic needs (e.g., rent, food, internet and electricity bills) while going through our program and until your first paycheck comes in."
+  Description: "Remember, you won't pay Microverse anything until you get a job. We believe that everyone deserves an opportunity to become a software developer, and our payment model reflects that. <br/><br/> However, you will need to pay for your basic needs (e.g., rent, food, internet and electricity bills) while going through our program and until your first paycheck comes in."
 },
 {
   Question: "What are the computer specs required for joining the Program?",
-  Description: "At a minimum, we ask 1.6 GHz processor, 4 GB RAM, 120 GB hard drive, Microphone with good audio quality, Webcam with clear image. But If you want an optimal experience and can afford to upgrade your computer, we recommend 2 GHz processor, 8 GB RAM and 256 GB solid-state hard drive"
+  Description: "At a minimum, we ask 1.6 GHz processor, 4 GB RAM, 120 GB hard drive, Microphone with good audio quality, Webcam with clear image. <br/><br/> But If you want an optimal experience and can afford to upgrade your computer, we recommend 2 GHz processor, 8 GB RAM and 256 GB solid-state hard drive"
 },
 {
   Question: "Is Windows suitable as an operating system when studying at Microverse?",
@@ -27,15 +27,15 @@ const questionsArray = [{
 },
 {
   Question: "What should I do if my city experiences power outages and/or has an unstable internet service?",
-  Description: "A great question! As you know, a stable electricity supply and a high-speed and stable internet connection are two of our requirements to join and succeed at Microverse. If your area is prone to power outages or unstable internet service, there are still things you can do to make sure these don't stand in the way of your success at Microverse."
+  Description: "A great question! As you know, a stable electricity supply and a high-speed and stable internet connection are two of our requirements to join and succeed at Microverse. <br/><br/> If your area is prone to power outages or unstable internet service, there are still things you can do to make sure these don't stand in the way of your success at Microverse."
 },
 {
   Question: "Why is my connection so important?",
-  Description: "During the Microverse program, you will be Zoom video (and screen-share) calls with your peers on a daily basis. If one or more students have a suboptimal internet connection, that makes it very frustrating and ruins the collaborative learning experience for everyone! Thus, we have systems set up to help monitor your connection via Zoom's APIs and ensure that your connection is up to video call standards."
+  Description: "During the Microverse program, you will be Zoom video (and screen-share) calls with your peers on a daily basis. <br/><br/> If one or more students have a suboptimal internet connection, that makes it very frustrating and ruins the collaborative learning experience for everyone! <br/><br/> Thus, we have systems set up to help monitor your connection via Zoom's APIs and ensure that your connection is up to video call standards."
 },
 {
   Question: "Should I join the Program if I'm temporarily available but plan to go back to a job soon?",
-  Description: "Our program is designed for those who are willing and able to commit to their education full-time for 12 months (the seven months of the program plus a minimum of 5 months before you get your first paycheck). If your availability to join the Program full-time is only temporary, then it would not make sense for you to join the Program now."
+  Description: "Our program is designed for those who are willing and able to commit to their education full-time for 12 months (the seven months of the program plus a minimum of 5 months before you get your first paycheck). <br/><br/> If your availability to join the Program full-time is only temporary, then it would not make sense for you to join the Program now."
 },
 {
   Question: "What level of programming experience do I need in order to join the Program?",
